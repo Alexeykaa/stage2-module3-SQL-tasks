@@ -1,0 +1,5 @@
+INSERT INTO STUDENT (NAME, BIRTHDAY, groupnumber) VALUES ('John', '2000-01-01', 1), ('Chris', '2000-01-02', 1), ('Carl', '2000-01-03', 1), ('Oliver', '2000-02-01', 2), ('James', '2000-02-02', 2), ('Lucas', '2000-02-03', 2), ('Henry', '2000-02-04', 2), ('Jacob', '2000-03-01', 3), ('Logan', '2000-03-02', 3), ('Ivan', '2000-04-01', 4), ('Stepan', '2000-04-02', 4), ('Alex', '2000-05-01', 5), ('Nikita', '2000-05-02', 5);
+INSERT INTO SUBJECT (NAME, GRADE) VALUES ('Art', 1), ('Music', 1), ('Geography', 2), ('History', 2), ('PE', 3), ('Math', 3), ('Science', 4), ('IT', 4), ('Java', 5), ('Gradle', 5);
+INSERT INTO PAYMENTTYPE (NAME) VALUES ('DAILY'), ('WEEKLY'), ('MONTHLY');
+INSERT INTO PAYMENT (TYPE_ID, AMOUNT, STUDENT_ID, PAYMENT_DATE) VALUES (2, 1, 1, '2023-01-01 01:00:00'), (3, 4, 4, '2023-01-04 04:00:00'), (2, 7, 7, '2023-01-07 07:00:00'), (1, 5, 5, '2023-01-05 05:00:00'), (3, 3, 3, '2023-01-03 00:00:00'), (1, 6, 6, '2023-01-06 00:00:00');
+INSERT INTO MARK (STUDENT_ID, SUBJECT_ID, MARK) VALUES (2, 1, 8), (4, 4, 5), (5, 3, 9), (8, 6, 4), (9, 5, 9), (10, 8, 7), (11, 9, 6);
